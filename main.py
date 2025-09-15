@@ -1,7 +1,10 @@
-from sum import sum
+from sum import add
 from difference import difference
 from product import product
 
-print("Sum:", sum(10, 5))
-print("Difference:", difference(10, 5))
-print("Product:", product(10, 5))
+if __name__ == "__main__":
+    a, b = 10, 5
+    print("Sum:", add(a, b))
+    print("Difference:", difference(a, b))
+    print("Product:", product(a, b))
+
