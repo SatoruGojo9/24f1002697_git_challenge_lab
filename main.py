@@ -1,5 +1,7 @@
-def main():
-    print("Welcome to Arithmetic Project")
+from sum import sum
+from difference import difference
+from product import product
 
-if __name__ == "__main__":
-    main()
+print("Sum:", sum(10, 5))
+print("Difference:", difference(10, 5))
+print("Product:", product(10, 5))
